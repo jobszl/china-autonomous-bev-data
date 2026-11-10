@@ -1,0 +1,603 @@
+[
+  {
+    "id": "E11001",
+    "source_id": "DAI2021_GZ",
+    "title": "Impacts of the introduction of autonomous taxi on travel behaviors of the experienced user: Evidence from a one-year paid taxi service in Guangzhou, China",
+    "authors": [
+      "Jingchen Dai",
+      "Ruimin Li",
+      "Zhiyong Liu",
+      "Shichao Lin"
+    ],
+    "publication_year": 2021,
+    "doi": "10.1016/j.trc.2021.103311",
+    "source_url": "https://doi.org/10.1016/j.trc.2021.103311",
+    "primary_url": "https://www.sciencedirect.com/science/article/pii/S0968090X21003193",
+    "geography": "中国广州黄埔区与开发区",
+    "data_period": "服务2019年11月起约一年；本轮已读预览未披露确切调查年月",
+    "evidence_type": "真实付费AT体验用户的横截面、回顾性自报；非随机或有对照的前后因果估计",
+    "vehicle_boundary": "L4 AT，车上有安全员；不拼车；动力未限定",
+    "sample_denominator": "383名已反复使用付费AT的体验用户；比例分母为受访者，而非行程或客公里",
+    "access_status": "本轮web检索读取出版商公开预览；直接open403；未取得完整正文模型表",
+    "location": "出版社Main findings from the travel characteristics of experienced users及Introduction预览",
+    "verified_values": [
+      {
+        "parameter": "实际体验受访者",
+        "value": 383,
+        "unit": "人",
+        "denominator": "有效样本"
+      },
+      {
+        "parameter": "每周至少使用一次AT",
+        "value": 40,
+        "unit": "%受访者",
+        "denominator": "383名受访者"
+      },
+      {
+        "parameter": "第一年完成AT行程",
+        "value": 147128,
+        "unit": "次行程",
+        "denominator": "论文报告的该运营服务第一年累计，非问卷样本"
+      }
+    ],
+    "supports": [
+      "Robotaxi已形成重复使用，并非只存在假想接受度。",
+      "可作使用频次类别及早期落地背景的参考。"
+    ],
+    "cannot_support": [
+      "没有原方式对应客公里权重，不能直接给σ=.15。",
+      "没有同人使用前后全方式次数/距离及无AV反事实，不能直接给g=.15。",
+      "40%是每周使用者比例，不能转成40%增长、方式份额或渗透率。"
+    ],
+    "existing_evidence_relation": "重复核实已收A03096/A03097/A03105；本包用于模型证据审查，不重复加入累计数值库",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11002",
+    "source_id": "BCG2026_CHINA_CONSUMER",
+    "title": "Robotaxi on the Road: Approaching Scaled Commercialization in China",
+    "authors": [
+      "Haixu Wang",
+      "Alex Xie",
+      "Shaowen Wang",
+      "Bill Zhang",
+      "Charlie Li",
+      "Claudia Bai"
+    ],
+    "publication_year": 2026,
+    "publication_date": "2026-04",
+    "doi": null,
+    "source_url": "https://web-assets.bcg.com/8d/27/c715e6cb4ce2a51daf3bb4812e65/bcg-robotaxi-on-the-road-approaching-scaled-commercialization-in-china-en.pdf",
+    "geography": "中国北京、广州、深圳、武汉（消费调查）；路测为北京、上海、广州、深圳",
+    "data_period": "报告发布前；调查和路测确切年月未明示",
+    "evidence_type": "机构一手体验调查；实际体验后的SP转换意愿及预期频次；另有独立路测",
+    "vehicle_boundary": "Robotaxi体验者；调查未将全部车辆限定为BEV",
+    "sample_denominator": "462人=252名早期用户+210名新体验者；Exhibit7标n=462，但正文说3.6为愿转换者均值，具体有效分母未披露",
+    "access_status": "本轮web完整26页公开PDF可读",
+    "location": "PDF p7印刷p5 Exhibit1脚注；PDF p11印刷p9 Exhibit7；PDF p10印刷p8正文；PDF p13印刷p11路测说明",
+    "verified_values": [
+      {
+        "parameter": "消费调查总样本",
+        "value": 462,
+        "unit": "人",
+        "denominator": "252早期用户+210新用户"
+      },
+      {
+        "parameter": "愿从其他交通方式转为Robotaxi",
+        "value": 39,
+        "unit": "%受访者",
+        "denominator": "Exhibit7全样本n=462；城市子样本未披露"
+      },
+      {
+        "parameter": "方式转换后预期每周额外Robotaxi次数",
+        "value": 3.6,
+        "unit": "次/(人·周)",
+        "denominator": "正文指愿转换者；图标注总样本462，均值有效分母不明"
+      },
+      {
+        "parameter": "一手评估路测",
+        "value": 79,
+        "unit": "次测试乘车",
+        "denominator": "四家L4运营者的研究团队路测，不是居民全部出行"
+      },
+      {
+        "parameter": "路测总距离",
+        "value": 786,
+        "unit": "km",
+        "denominator": "79次路测的合计"
+      }
+    ],
+    "supports": [
+      "可支持跨方式转入机制及不同城市选择意愿的存在。",
+      "可用来设计未来体验调查问题，或设有依据的转换情景。"
+    ],
+    "cannot_support": [
+      "39%是人数意愿比例，不能等于σ的转入客公里比例。",
+      "3.6次/周是把原有公交、地铁、私家车等出行转换到Robotaxi后的业务次数增量，不是全方式净新增g。",
+      "79次、786km是人为选择场景路测，不能用于全国居民诱发出行距离。"
+    ],
+    "existing_evidence_relation": "复核既有G06001–G06029；G06017的单位本来正确为每人每周。本轮早期口头消息误称每月已即时更正，无需修改累计库",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11003",
+    "source_id": "SHI2021_CHENGDU_RH",
+    "title": "The influence of ride-hailing on travel frequency and mode choice",
+    "authors": [
+      "Kunbo Shi",
+      "Rui Shao",
+      "Jonas De Vos",
+      "Long Cheng",
+      "Frank Witlox"
+    ],
+    "publication_year": 2021,
+    "doi": "10.1016/j.trd.2021.103125",
+    "source_url": "https://doi.org/10.1016/j.trd.2021.103125",
+    "primary_url": "https://discovery.ucl.ac.uk/id/eprint/10140731/",
+    "fulltext_url": "https://discovery.ucl.ac.uk/10140731/1/Shi%20et%20al.%202021%20ridehailing%20accepted%20version.pdf",
+    "geography": "中国成都",
+    "data_period": "2019年6–8月",
+    "evidence_type": "普通有人驾驶网约车实际用户，对假设没有网约车的SP反事实回答；回顾性调查，非服务撤除实验",
+    "vehicle_boundary": "普通ride-hailing类比，不是自动驾驶或BEV限定样本",
+    "sample_denominator": "总有效样本597；总频次变化问题n=596，最近一次行程无服务问题n=590",
+    "access_status": "本轮web核对大学作者仓储摘要与原始作者稿索引；48页作者稿此前合法下载并逐页核对",
+    "location": "作者稿PDF p23–24 §4.1/Figure2；论文摘要",
+    "verified_values": [
+      {
+        "parameter": "总样本",
+        "value": 597,
+        "unit": "人",
+        "denominator": "面对面访谈有效回答"
+      },
+      {
+        "parameter": "服务存在相对于无服务会使总频次增加",
+        "value": 16.8,
+        "unit": "%受访者",
+        "numerator": 100,
+        "denominator": 596
+      },
+      {
+        "parameter": "服务存在相对于无服务会使总频次减少",
+        "value": 6.4,
+        "unit": "%受访者",
+        "numerator": 38,
+        "denominator": 596
+      },
+      {
+        "parameter": "若无网约车最近一次行程不会发生",
+        "value": 12.9,
+        "unit": "%受访者的最近一次行程",
+        "numerator": 76,
+        "denominator": 590
+      }
+    ],
+    "supports": [
+      "可以作为中国普通ride-hailing诱发出行方向的类比证据。",
+      "提示净需求模型同时考虑增加、减少和未改变人群。"
+    ],
+    "cannot_support": [
+      "16.8%描述增加频次的人数份额，不是出行次数增加16.8%，更不是客公里增加16.8%。",
+      "不能把16.8%−6.4%=10.4个百分点当g。",
+      "没有每人变化幅度、距离、AV设备或自动驾驶因果识别，故g=.15仍为研究者假设。"
+    ],
+    "existing_evidence_relation": "复核既有G06030–G06045，不重复计成新研究",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11004",
+    "source_id": "MOHAN2020",
+    "title": "Trade-offs between automation and light vehicle electrification",
+    "authors": [
+      "Aniruddh Mohan",
+      "Shashank Sripad",
+      "Parth Vaishnav",
+      "Venkatasubramanian Viswanathan"
+    ],
+    "publication_year": 2020,
+    "doi": "10.1038/s41560-020-0644-3",
+    "source_url": "https://doi.org/10.1038/s41560-020-0644-3",
+    "author_fulltext_url": "https://www.cmu.edu/ceic/research-publications/aniruddh-mohan-phd-thesis-2022.pdf",
+    "support_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41560-020-0644-3/MediaObjects/41560_2020_644_MOESM1_ESM.pdf",
+    "geography": "美国BEV及驾驶循环情景",
+    "data_period": "2020论文模拟；2022作者博士论文转载全文不是观察年",
+    "evidence_type": "BEV L4–L5工程与电池模型，基于公开硬件参考的功率区间；不是商业L4实测",
+    "vehicle_boundary": "BEV；设备负荷、质量、阻力及速度曲线分别处理",
+    "sample_denominator": "模拟车辆/循环，无中国Robotaxi仪表样本",
+    "access_status": "本轮web打开论文和CMU链接失败；读取此前合法保存作者论文的原文PDF页95–100重新核对",
+    "location": "原文第1–2页功率边界；Methods Eq.(5)，作者博士论文PDF95–96/99–100页",
+    "verified_values": [
+      {
+        "parameter": "计算系统情景功率下限",
+        "value": 150,
+        "unit": "W",
+        "denominator": "运行中的计算平台负荷，不是全套设备净电池侧功率"
+      },
+      {
+        "parameter": "计算系统情景功率上限",
+        "value": 1000,
+        "unit": "W",
+        "denominator": "同上"
+      },
+      {
+        "parameter": "感知与通信合计情景下限",
+        "value": 30,
+        "unit": "W",
+        "denominator": "传感器+连接负荷"
+      },
+      {
+        "parameter": "感知与通信合计情景上限",
+        "value": 150,
+        "unit": "W",
+        "denominator": "同上"
+      },
+      {
+        "parameter": "计算+感知通信端负荷范围",
+        "low": 180,
+        "high": 1150,
+        "unit": "W",
+        "derivation": "150+30及1000+150；来源在两类负荷边界之间假设线性关系",
+        "denominator": "供模型解释的设备负荷，不是中国实测电池侧净值"
+      },
+      {
+        "parameter": "城市驾驶循环每日模拟距离",
+        "value": 30,
+        "unit": "mile/(车·日)",
+        "denominator": "美国驾驶调查支持的模拟设定"
+      },
+      {
+        "parameter": "城市–公路复合每日模拟距离",
+        "value": 50,
+        "unit": "mile/(车·日)",
+        "denominator": "研究者取整的模拟设定"
+      }
+    ],
+    "power_boundary": {
+      "port": "Methods Eq.(5): P_total=(P_drag+P_friction+P_inertia)/(eta1*eta2)+(P_compute+P_sensor)/eta2；eta1为动力传动效率、eta2为电池效率，不能替换成充电效率",
+      "includes_sensors": true,
+      "includes_compute": true,
+      "includes_connectivity": true,
+      "includes_extra_cooling": "没有独立的额外冷却标定项；作者提醒计算冷却可能低估",
+      "baseline_overlap": "作者明确已有EV具备GPS/连接，其通信负荷是否新增不确定；设备总负荷不能全部无条件当净增量",
+      "standby_measurement": false
+    },
+    "supports": [
+      "为0.30/0.50kW这种数百瓦量级情景提供工程先验范围。",
+      "支持按每秒运行负荷积分，区分设备负荷与电池端总功率。"
+    ],
+    "cannot_support": [
+      "0.30和0.50kW不是该研究分别测得的私人/Robotaxi净值。",
+      "无30W/80W整包待机实测；无中国每天在线小时。",
+      "30/50mile每日里程是美国情景，不可当中国实际里程。"
+    ],
+    "existing_evidence_relation": "既有MOHAN2020来源重新做当前模型边界核对",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11005",
+    "source_id": "JRC2025_AUTOMATION",
+    "title": "On the Energy Intensity of Road Transport in the Presence of Connected and Automated Mobility",
+    "authors": [
+      "Ada Garus",
+      "Konstantinos Mattas",
+      "G. Albano",
+      "G. Baldini",
+      "Biagio Ciuffo"
+    ],
+    "publication_year": 2025,
+    "doi": "10.2760/8978379",
+    "source_url": "https://data.europa.eu/doi/10.2760/8978379",
+    "primary_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC141212",
+    "fulltext_url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC141212/JRC141212_01.pdf",
+    "geography": "欧洲供应商咨询与欧洲道路/城市模拟；不是中国",
+    "data_period": "2025报告；原型商用功率访谈日期/车辆测量窗口未披露",
+    "evidence_type": "机构原始咨询报告与工程情景；13名行业专家问卷、26名专家工作坊；未提供统一仪器实测时序",
+    "vehicle_boundary": "L4乘用车/Robotaxi工程配置；本包不采公交或燃油数量",
+    "sample_denominator": "配置级功率；18h/25kmh为模拟设定，没有车辆日分状态电表样本",
+    "access_status": "本轮web可读87页官方公开PDF，原PDF文本已再次核对",
+    "location": "PDF28页§3.4.2；PDF30–35页§3.4.3/Table3；PDF36页§3.4.5",
+    "verified_values": [
+      {
+        "parameter": "传感器+车载计算原型配置",
+        "value": 2000,
+        "unit": "W",
+        "denominator": "供应商访谈报告的整套kit；不是平均中国车"
+      },
+      {
+        "parameter": "传感器+车载计算Enhanced配置",
+        "value": 860,
+        "unit": "W",
+        "denominator": "另一整包配置"
+      },
+      {
+        "parameter": "传感器+车载计算Vision-only配置",
+        "value": 390,
+        "unit": "W",
+        "denominator": "假设整包；已包含150W计算分项"
+      },
+      {
+        "parameter": "传感器+车载计算ATO未来优化配置",
+        "value": 344,
+        "unit": "W",
+        "denominator": "未来优化假设整包"
+      },
+      {
+        "parameter": "原文普通车安全感知/计算基线",
+        "value": 100,
+        "unit": "W",
+        "denominator": "Table3高速情景中普通手动车，专家假设；非本研究中国BEV基线"
+      },
+      {
+        "parameter": "源内相对于100W基线的感知+计算净差",
+        "values_by_configuration": {
+          "prototype": 1900,
+          "enhanced": 760,
+          "vision_only": 290,
+          "ato": 244
+        },
+        "unit": "W",
+        "derivation": "各配置整包减去同一报告普通车100W",
+        "denominator": "仅源内工程对照的派生量，不含通信及另行冷却；不能自动移用中国"
+      },
+      {
+        "parameter": "城市Robotaxi模拟平均速度",
+        "value": 25,
+        "unit": "km/h",
+        "denominator": "模拟车队，不是中国载客/空驶实际均速"
+      },
+      {
+        "parameter": "Robotaxi每日运营窗口假设",
+        "value": 18,
+        "unit": "h/(车·日)",
+        "denominator": "模拟共享运营时间，非实测行驶或设备在线小时"
+      }
+    ],
+    "power_boundary": {
+      "port": "报告未说明2000/860/390/344W为高压电池侧、低压设备侧还是含DC/DC损耗的同一测量端口",
+      "includes_sensors": true,
+      "includes_compute": true,
+      "includes_connectivity": "V2V、V2DC单列，不在上述感知+计算数值中",
+      "includes_extra_cooling": "未独立核实全套增量散热和电源损耗",
+      "baseline_overlap": "100W是原文普通车安全系统假设；应优先扣除本研究BEV基线真正已含的ADAS负荷",
+      "v2dc_caution": "V2DC按视频数据量和0.3kWh/GB因子折算，并非电池侧无线模块电表实测；不能把表内V2DC W直接加作本模型车端净功率",
+      "offboard_caution": "车队管理、地图更新、存储、训练是车外模块，不计为车辆电池负荷",
+      "double_counting": "四整包配置互为替代；390W已含150W，不另加；Wh/km与W×h是同一能耗，择一计"
+    },
+    "supports": [
+      "支持按技术配置设置宽范围，并扣除原车安全ADAS基线。",
+      "源内290W净差使私人0.30kW情景有量级可比性；源内760W净差可作更高配置对照。",
+      "18h/25kmh可作有出处的运营敏感性假设。"
+    ],
+    "cannot_support": [
+      "0.50kW不是该报告直接测得的Robotaxi值，只能作为研究者区间选择。",
+      "无30W/80W待机实测；18h不能转换成18h驾驶或同功率在线。",
+      "不能凭欧洲普通车100W直接声称已正确扣除中国BEV基线。"
+    ],
+    "existing_evidence_relation": "既有O04及边界校核源，本轮重点补当前ΔP与基线一致性",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11006",
+    "source_id": "BAIDU2022_REALIZED_DEPLOYMENT",
+    "title": "Baidu Announces Second Quarter 2022 Results",
+    "authors": [
+      "Baidu, Inc."
+    ],
+    "publication_year": 2022,
+    "publication_date": "2022-08-30",
+    "doi": null,
+    "source_url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2022-results/",
+    "geography": "中国武汉、重庆",
+    "data_period": "实际事件2022-08-08；公告2022-08-30",
+    "evidence_type": "运营商官方已发生商业许可与服务公告，不是未来渗透预测",
+    "vehicle_boundary": "车内无人驾驶员的Robotaxi；本条只使用商业运行时间证据，不对动力类型或数量做外推",
+    "sample_denominator": "两城市当地获许可服务范围；没有全国全部出行分母",
+    "access_status": "本轮web读取官方正文",
+    "location": "Operational Highlights > Intelligent Driving第二组要点",
+    "verified_values": [
+      {
+        "parameter": "武汉和重庆收费全无人Robotaxi开始及许可事件日",
+        "value": "2022-08-08",
+        "unit": "日期",
+        "denominator": "限定获许可道路和运营范围"
+      }
+    ],
+    "supports": [
+      "Robotaxi落地是已经发生的分城、分ODD事件，应与私人L4未来普及分开。",
+      "在所覆盖城市定义历史服务可用起点有一手依据。"
+    ],
+    "cannot_support": [
+      "不能把许可日当全国统一L4普及日或年度客公里渗透率。",
+      "不能以运营落地证明私人家庭已可购买L4并在全国道路自动运行。"
+    ],
+    "existing_evidence_relation": "官网时间锚点核实；仅证据注释，不改模型部署路径",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11007",
+    "source_id": "BAIDU2024_SERVICE_HOURS",
+    "title": "Baidu Launches China's First 24/7 Robotaxi Service",
+    "authors": [
+      "Baidu, Inc."
+    ],
+    "publication_year": 2024,
+    "publication_date": "2024-03-08",
+    "doi": null,
+    "source_url": "https://www.prnewswire.com/news-releases/baidu-launches-chinas-first-247-robotaxi-service-302084097.html",
+    "geography": "中国武汉部分区域",
+    "data_period": "2024年3月公布的服务扩展",
+    "evidence_type": "运营商提供给PRNewswire的一手官方新闻稿；服务营业安排，不是车端设备计量",
+    "vehicle_boundary": "Apollo Go完全无人Robotaxi；本条仅采服务时段",
+    "sample_denominator": "系统在所覆盖区域每天可提供服务；不是每辆车运行样本",
+    "access_status": "本轮web读取标明News provided by Baidu, Inc.的公开原始新闻稿",
+    "location": "正文首段及service expansion说明",
+    "verified_values": [
+      {
+        "parameter": "该范围服务提供窗口",
+        "value": 24,
+        "unit": "h/day",
+        "denominator": "服务系统营业窗口，不是单车在线小时"
+      },
+      {
+        "parameter": "该范围一周服务日",
+        "value": 7,
+        "unit": "day/week",
+        "denominator": "服务营业安排，不是每车365工作日测量"
+      }
+    ],
+    "supports": [
+      "中国真实商业服务可以跨昼夜，工作窗口与单车设备状态应分开。",
+      "可以给运营窗口设置不超过24h/day的结构约束。"
+    ],
+    "cannot_support": [
+      "24/7不能推出每车24h设备上电、24h行驶或24h同一运行功率。",
+      "未披露行驶/等待/休眠各状态时长、待机W、充电和保养占时。"
+    ],
+    "existing_evidence_relation": "既有服务安排边界重新核对",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "id": "E11008",
+    "source_id": "MIIT2026_AUTONOMY_POLICY_TARGET",
+    "title": "工业和信息化部举行新闻发布会 介绍智能网联新能源汽车产业高质量发展情况",
+    "authors": [
+      "工业和信息化部装备工业一司",
+      "工信微报"
+    ],
+    "publication_year": 2026,
+    "publication_date": "2026-09-11",
+    "doi": null,
+    "source_url": "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_05c4683ad9ee4c3c880485f7a8873601.html",
+    "geography": "中国全国政策目标，应用限定特定道路场景",
+    "data_period": "2026年发布会解释面向2030年规划目标；不是2030年已实现观测",
+    "evidence_type": "政府官方前瞻政策目标与现状说明；非销量/里程预测的实测置信区间",
+    "vehicle_boundary": "高度自动驾驶产品应用未区分私人L4与Robotaxi，也未给其分别的量化路径",
+    "sample_denominator": "规划目标，无居民使用前后样本或AV客公里分母",
+    "access_status": "本轮web读官方全文并核对发布日期与新华社/中国电子报问答",
+    "location": "答新华社问题：面向2030年的目标设定；答中国电子报问题：L2规模装车及L3/L4测试验证/准入试点",
+    "verified_values": [
+      {
+        "parameter": "高度自动驾驶产品在指定道路场景应用的规划时间节点",
+        "value": 2030,
+        "unit": "目标年",
+        "denominator": "高速公路、城市快速路、部分城市道路等场景"
+      }
+    ],
+    "supports": [
+      "2030可作为特定场景高度自动驾驶政策情景的时间锚点。",
+      "支持将规划目标、试点准入与实际商业运行分别标注。"
+    ],
+    "cannot_support": [
+      "没有私人L4全国商业销售或普及的确定年份。",
+      "未给私人/Robotaxi客公里承接份额、BEV渗透率或按七区的推广速度。",
+      "不能把政策目标当2030年所有乘用车道路和ODD均可L4，更不能固定2030年为私人L4实际实现日期。"
+    ],
+    "existing_evidence_relation": "本轮新增官方现状/2030目标核实；不将目标改写为观测",
+    "direct_china_sigma_input": false,
+    "direct_china_g_input": false
+  },
+  {
+    "source_id": "R11_SAMR_GB36980_2025",
+    "title": "GB 36980.1-2025《电动汽车能量消耗量限值 第1部分：乘用车》及市场监管总局官方实施说明",
+    "authors_or_agency": "国家市场监督管理总局、国家标准化管理委员会；主管与归口部门为工业和信息化部",
+    "source_type": "强制性国家标准官方元数据及发布机关一手解读",
+    "publication_date": "2025-05-30",
+    "explanation_publication_date": "2025-12-26",
+    "effective_date": "2026-01-01",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=957BCBA7091D453922DE63158D8419AB",
+    "supporting_url": "https://www.samr.gov.cn/xw/sj/art/2025/art_72323bbf4d894a7ab4b933a037d26fc5.html",
+    "additional_official_metadata_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=R8mDbTEqHTs%3D&mode=p",
+    "geography": "中国",
+    "vehicle_type": "纯电动乘用车新出厂产品；按质量、用途及技术特点区分限值",
+    "page_table": "官方标准元数据发布日期/实施日期；实施说明正文第2—3段",
+    "measurement_boundary": "认证/标准限值及技术升级解释，不是实运行存量车电池侧车均电耗。本轮未取得并核验标准全文能源测量端和完整测试公式，不能补写未经核验的AC/DC端点。",
+    "supports": "支持政策促进单位里程能耗改进及考察下降情景的定性理由。",
+    "does_not_support": "不能把限值收紧11%、约2吨车型15.1kWh/100km或同电池续驶里程提高约7%直接当作2035/2024实际电池侧车均节能率。不能据此把25%称为有文献校准的上界。",
+    "access_status": "两条官方公开网页已核验；标准全文未核验",
+    "existing_source_id": null
+  },
+  {
+    "source_id": "V06S05",
+    "title": "Technical Progress of New Energy Vehicles, Chapter 3, Annual Report on the Big Data of New Energy Vehicle in China (2024)",
+    "authors_or_agency": "National Big Data Alliance of New Energy Vehicles; Beijing EV New Energy Vehicle Big Data Application Technology Research Center; The Automotive Big Data Application Branch of the China Society of Automotive Engineers",
+    "source_type": "国家新能源汽车大数据平台原始年度统计报告开放章节",
+    "publication_date": "2026-02-14",
+    "publication_year": 2026,
+    "source_year": [
+      2021,
+      2022,
+      2023
+    ],
+    "year_role": "2021—2023为观察年；书名2024为报告版次；2026为公开英文电子出版年",
+    "doi": "10.1007/978-981-96-8233-1_3",
+    "source_url": "https://link.springer.com/chapter/10.1007/978-981-96-8233-1_3",
+    "download_url": "https://link.springer.com/content/pdf/10.1007/978-981-96-8233-1_3.pdf",
+    "geography": "中国国家平台样本；不是经确认覆盖七电网全部存量的全国总体估计",
+    "vehicle_type": "BEV乘用车；Table 3.1须结合§3.3确认BEV口径",
+    "page_table": "原PDF第4页／印刷第44页，Table 3.1与§3.3",
+    "measurement_boundary": "原文称实际/平均运行电耗；未披露电池侧或电网侧测量端、回收净计、SOC×容量或U·I积分、车辆/里程加权及零里程日处理。",
+    "supports": "实测历史全国平台平均并非必然下降；原文归因2023年整备质量上升。固定电耗敏感性有必要。",
+    "does_not_support": "不能把此处0.161kWh/km无条件替换已经明确电池侧的e0；不能由2021—2023历史上升推断未来必然上升或给2035下降幅度校准。",
+    "verified_image_read_only": "C:/Users/DELL/Documents/Codex/2026-10-04/yue/work/data_collection/round06/bev_annual_baseline/technical_fig3_7_table3_1.png",
+    "sha256": "66b37b06d780a6e75b2879966a197b486a61ecf3c9afc43b4b57b7f7653c6477",
+    "access_status": "原PDF14页已取得；本轮重新核对第4页原表及出版网页",
+    "existing_source_id": "V06S05"
+  },
+  {
+    "source_id": "CUI2025",
+    "title": "Assess changes in electric vehicle usage behaviour: Comparison between 2018 and 2021",
+    "authors_or_agency": "Dingsong Cui, Peng Liu, Zhenpo Wang",
+    "source_type": "原始真实运行数据论文；机构仓储公开作者接受稿",
+    "publication_date": "2025-02-18",
+    "issue_date": "2025-04",
+    "publication_year": 2025,
+    "data_period": [
+      "2018-03",
+      "2021-03"
+    ],
+    "year_role": "2018/2021为两个3月观察窗口；2025为发表年",
+    "doi": "10.1016/j.trd.2025.104661",
+    "source_url": "https://eprints.whiterose.ac.uk/id/eprint/224171/",
+    "download_url": "https://eprints.whiterose.ac.uk/id/eprint/224171/3/Manuscript%20Source%20Files.pdf",
+    "geography": "北京",
+    "vehicle_type": "原文electric taxis和personal EVs；轻型电动乘用车。所核章节未给出逐车动力型式排除规则，不能声称已另行完成全样本严格BEV筛选。",
+    "page_table": "机构接受稿PDF第21页，Appendix E Table E.1；第8页§4.1；第5页§2样本与时间窗口",
+    "measurement_boundary": "每车在一个月窗口内按工作日/周末分别计算平均日VKT，再比较用户特征；不是全年累计里程，不是同车面板因果效应。",
+    "sample_counts": {
+      "taxi_2018": 1352,
+      "taxi_2021": 1140,
+      "personal_2018": 7639,
+      "personal_2021": 85518
+    },
+    "supports": "真实用途中私人和出租电动车里程变化有差异；私人工作日略增加而周末接近不变；出租日电里程增加幅度更高。",
+    "does_not_support": "不支持把3月日均×365作为全年车均里程，不支持直接迁移到七电网2035年；不校准私人±15%或运营±10%的概率分布。出租历史变化超过10%，所以±10%不能称作覆盖该历史变化的范围。",
+    "access_status": "22页作者接受稿已取得；原表和机构发表日期本轮重新核验",
+    "existing_source_id": "CUI2025"
+  },
+  {
+    "source_id": "IEA2026_GEO",
+    "title": "Global EV Outlook 2026, Trends in electric cars",
+    "authors_or_agency": "International Energy Agency",
+    "source_type": "IEA原始分析报告官方公开章节",
+    "publication_date": "2026-05-20",
+    "publication_year": 2026,
+    "source_year": 2025,
+    "year_role": "所用车型结构指标是2025历史销售/车型结构；不是2035电耗预测",
+    "source_url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+    "publication_metadata_url": "https://www.iea.org/reports/global-ev-outlook-2026",
+    "geography": "所记录销售结构为中国；另有全球技术讨论仅作机制证据",
+    "vehicle_type": "电动乘用车指标含BEV与PHEV；不能自动转为纯BEV存量结构",
+    "page_table": "Model availability and range > Model availability continues to shift towards larger vehicle segments，中国段；The average range of battery electric cars is plateauing，大电池增重段",
+    "measurement_boundary": "新车销售/可售车型结构；不是存量车、实际行驶里程或电池侧电耗测量。",
+    "supports": "车身尺寸和电池增重可能抵消技术效率改进，不能从技术进步推出实际车均电耗必然同幅下降。",
+    "does_not_support": "本轮所核章节没有中国2035电池侧kWh/km相对2024的0/15/25%路径，也未给私人或运营全年里程变化预测。",
+    "access_status": "官方全文HTML与发布日期已读取",
+    "existing_source_id": "IEA2026_GEO"
+  }
+]

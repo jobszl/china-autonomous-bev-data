@@ -1,0 +1,538 @@
+{
+  "维持电耗里程": [
+    {
+      "year": 2024,
+      "mean_national_stock": 19000000.0,
+      "mean_taxi": 436023.0,
+      "mean_ride": 2280000.0,
+      "mean_other": 16283977.0,
+      "grid_multiplier": 1.0,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2025,
+      "mean_national_stock": 25500000.0,
+      "mean_taxi": 518011.5,
+      "mean_ride": 2640000.0,
+      "mean_other": 22341988.5,
+      "grid_multiplier": 0.9583333333333333,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2026,
+      "mean_national_stock": 33500000.0,
+      "mean_taxi": 600000.0,
+      "mean_ride": 3000000.0,
+      "mean_other": 29900000.0,
+      "grid_multiplier": 0.9166666666666666,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2027,
+      "mean_national_stock": 44500000.0,
+      "mean_taxi": 675000.0,
+      "mean_ride": 3375000.0,
+      "mean_other": 40450000.0,
+      "grid_multiplier": 0.875,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2028,
+      "mean_national_stock": 57500000.0,
+      "mean_taxi": 750000.0,
+      "mean_ride": 3750000.0,
+      "mean_other": 53000000.0,
+      "grid_multiplier": 0.8333333333333333,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2029,
+      "mean_national_stock": 70500000.0,
+      "mean_taxi": 825000.0,
+      "mean_ride": 4125000.0,
+      "mean_other": 65550000.0,
+      "grid_multiplier": 0.7916666666666666,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2030,
+      "mean_national_stock": 83500000.0,
+      "mean_taxi": 900000.0,
+      "mean_ride": 4500000.0,
+      "mean_other": 78100000.0,
+      "grid_multiplier": 0.75,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2031,
+      "mean_national_stock": 99000000.0,
+      "mean_taxi": 960000.0,
+      "mean_ride": 4800000.0,
+      "mean_other": 93240000.0,
+      "grid_multiplier": 0.7,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2032,
+      "mean_national_stock": 117000000.0,
+      "mean_taxi": 1020000.0,
+      "mean_ride": 5100000.0,
+      "mean_other": 110880000.0,
+      "grid_multiplier": 0.65,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2033,
+      "mean_national_stock": 135000000.0,
+      "mean_taxi": 1080000.0,
+      "mean_ride": 5400000.0,
+      "mean_other": 128520000.0,
+      "grid_multiplier": 0.6,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2034,
+      "mean_national_stock": 153000000.0,
+      "mean_taxi": 1140000.0,
+      "mean_ride": 5700000.0,
+      "mean_other": 146160000.0,
+      "grid_multiplier": 0.55,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2035,
+      "mean_national_stock": 171000000.0,
+      "mean_taxi": 1200000.0,
+      "mean_ride": 6000000.0,
+      "mean_other": 163800000.0,
+      "grid_multiplier": 0.5,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    }
+  ],
+  "温和电耗改进": [
+    {
+      "year": 2024,
+      "mean_national_stock": 19000000.0,
+      "mean_taxi": 436023.0,
+      "mean_ride": 2280000.0,
+      "mean_other": 16283977.0,
+      "grid_multiplier": 1.0,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2025,
+      "mean_national_stock": 25500000.0,
+      "mean_taxi": 518011.5,
+      "mean_ride": 2640000.0,
+      "mean_other": 22341988.5,
+      "grid_multiplier": 0.9583333333333333,
+      "e_multiplier": 0.9863636363636363,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2026,
+      "mean_national_stock": 33500000.0,
+      "mean_taxi": 600000.0,
+      "mean_ride": 3000000.0,
+      "mean_other": 29900000.0,
+      "grid_multiplier": 0.9166666666666666,
+      "e_multiplier": 0.9727272727272728,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2027,
+      "mean_national_stock": 44500000.0,
+      "mean_taxi": 675000.0,
+      "mean_ride": 3375000.0,
+      "mean_other": 40450000.0,
+      "grid_multiplier": 0.875,
+      "e_multiplier": 0.9590909090909091,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2028,
+      "mean_national_stock": 57500000.0,
+      "mean_taxi": 750000.0,
+      "mean_ride": 3750000.0,
+      "mean_other": 53000000.0,
+      "grid_multiplier": 0.8333333333333333,
+      "e_multiplier": 0.9454545454545454,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2029,
+      "mean_national_stock": 70500000.0,
+      "mean_taxi": 825000.0,
+      "mean_ride": 4125000.0,
+      "mean_other": 65550000.0,
+      "grid_multiplier": 0.7916666666666666,
+      "e_multiplier": 0.9318181818181818,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2030,
+      "mean_national_stock": 83500000.0,
+      "mean_taxi": 900000.0,
+      "mean_ride": 4500000.0,
+      "mean_other": 78100000.0,
+      "grid_multiplier": 0.75,
+      "e_multiplier": 0.9181818181818182,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2031,
+      "mean_national_stock": 99000000.0,
+      "mean_taxi": 960000.0,
+      "mean_ride": 4800000.0,
+      "mean_other": 93240000.0,
+      "grid_multiplier": 0.7,
+      "e_multiplier": 0.9045454545454545,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2032,
+      "mean_national_stock": 117000000.0,
+      "mean_taxi": 1020000.0,
+      "mean_ride": 5100000.0,
+      "mean_other": 110880000.0,
+      "grid_multiplier": 0.65,
+      "e_multiplier": 0.8909090909090909,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2033,
+      "mean_national_stock": 135000000.0,
+      "mean_taxi": 1080000.0,
+      "mean_ride": 5400000.0,
+      "mean_other": 128520000.0,
+      "grid_multiplier": 0.6,
+      "e_multiplier": 0.8772727272727272,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2034,
+      "mean_national_stock": 153000000.0,
+      "mean_taxi": 1140000.0,
+      "mean_ride": 5700000.0,
+      "mean_other": 146160000.0,
+      "grid_multiplier": 0.55,
+      "e_multiplier": 0.8636363636363636,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2035,
+      "mean_national_stock": 171000000.0,
+      "mean_taxi": 1200000.0,
+      "mean_ride": 6000000.0,
+      "mean_other": 163800000.0,
+      "grid_multiplier": 0.5,
+      "e_multiplier": 0.85,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    }
+  ],
+  "改进且低里程": [
+    {
+      "year": 2024,
+      "mean_national_stock": 19000000.0,
+      "mean_taxi": 436023.0,
+      "mean_ride": 2280000.0,
+      "mean_other": 16283977.0,
+      "grid_multiplier": 1.0,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2025,
+      "mean_national_stock": 25500000.0,
+      "mean_taxi": 518011.5,
+      "mean_ride": 2640000.0,
+      "mean_other": 22341988.5,
+      "grid_multiplier": 0.9583333333333333,
+      "e_multiplier": 0.9772727272727273,
+      "other_km_multiplier": 0.9863636363636363,
+      "ops_km_multiplier": 0.990909090909091
+    },
+    {
+      "year": 2026,
+      "mean_national_stock": 33500000.0,
+      "mean_taxi": 600000.0,
+      "mean_ride": 3000000.0,
+      "mean_other": 29900000.0,
+      "grid_multiplier": 0.9166666666666666,
+      "e_multiplier": 0.9545454545454546,
+      "other_km_multiplier": 0.9727272727272728,
+      "ops_km_multiplier": 0.9818181818181818
+    },
+    {
+      "year": 2027,
+      "mean_national_stock": 44500000.0,
+      "mean_taxi": 675000.0,
+      "mean_ride": 3375000.0,
+      "mean_other": 40450000.0,
+      "grid_multiplier": 0.875,
+      "e_multiplier": 0.9318181818181819,
+      "other_km_multiplier": 0.9590909090909091,
+      "ops_km_multiplier": 0.9727272727272728
+    },
+    {
+      "year": 2028,
+      "mean_national_stock": 57500000.0,
+      "mean_taxi": 750000.0,
+      "mean_ride": 3750000.0,
+      "mean_other": 53000000.0,
+      "grid_multiplier": 0.8333333333333333,
+      "e_multiplier": 0.9090909090909091,
+      "other_km_multiplier": 0.9454545454545454,
+      "ops_km_multiplier": 0.9636363636363636
+    },
+    {
+      "year": 2029,
+      "mean_national_stock": 70500000.0,
+      "mean_taxi": 825000.0,
+      "mean_ride": 4125000.0,
+      "mean_other": 65550000.0,
+      "grid_multiplier": 0.7916666666666666,
+      "e_multiplier": 0.8863636363636364,
+      "other_km_multiplier": 0.9318181818181818,
+      "ops_km_multiplier": 0.9545454545454546
+    },
+    {
+      "year": 2030,
+      "mean_national_stock": 83500000.0,
+      "mean_taxi": 900000.0,
+      "mean_ride": 4500000.0,
+      "mean_other": 78100000.0,
+      "grid_multiplier": 0.75,
+      "e_multiplier": 0.8636363636363636,
+      "other_km_multiplier": 0.9181818181818182,
+      "ops_km_multiplier": 0.9454545454545454
+    },
+    {
+      "year": 2031,
+      "mean_national_stock": 99000000.0,
+      "mean_taxi": 960000.0,
+      "mean_ride": 4800000.0,
+      "mean_other": 93240000.0,
+      "grid_multiplier": 0.7,
+      "e_multiplier": 0.8409090909090909,
+      "other_km_multiplier": 0.9045454545454545,
+      "ops_km_multiplier": 0.9363636363636364
+    },
+    {
+      "year": 2032,
+      "mean_national_stock": 117000000.0,
+      "mean_taxi": 1020000.0,
+      "mean_ride": 5100000.0,
+      "mean_other": 110880000.0,
+      "grid_multiplier": 0.65,
+      "e_multiplier": 0.8181818181818181,
+      "other_km_multiplier": 0.8909090909090909,
+      "ops_km_multiplier": 0.9272727272727272
+    },
+    {
+      "year": 2033,
+      "mean_national_stock": 135000000.0,
+      "mean_taxi": 1080000.0,
+      "mean_ride": 5400000.0,
+      "mean_other": 128520000.0,
+      "grid_multiplier": 0.6,
+      "e_multiplier": 0.7954545454545454,
+      "other_km_multiplier": 0.8772727272727272,
+      "ops_km_multiplier": 0.9181818181818182
+    },
+    {
+      "year": 2034,
+      "mean_national_stock": 153000000.0,
+      "mean_taxi": 1140000.0,
+      "mean_ride": 5700000.0,
+      "mean_other": 146160000.0,
+      "grid_multiplier": 0.55,
+      "e_multiplier": 0.7727272727272727,
+      "other_km_multiplier": 0.8636363636363636,
+      "ops_km_multiplier": 0.9090909090909092
+    },
+    {
+      "year": 2035,
+      "mean_national_stock": 171000000.0,
+      "mean_taxi": 1200000.0,
+      "mean_ride": 6000000.0,
+      "mean_other": 163800000.0,
+      "grid_multiplier": 0.5,
+      "e_multiplier": 0.75,
+      "other_km_multiplier": 0.85,
+      "ops_km_multiplier": 0.9
+    }
+  ],
+  "改进且高里程": [
+    {
+      "year": 2024,
+      "mean_national_stock": 19000000.0,
+      "mean_taxi": 436023.0,
+      "mean_ride": 2280000.0,
+      "mean_other": 16283977.0,
+      "grid_multiplier": 1.0,
+      "e_multiplier": 1.0,
+      "other_km_multiplier": 1.0,
+      "ops_km_multiplier": 1.0
+    },
+    {
+      "year": 2025,
+      "mean_national_stock": 25500000.0,
+      "mean_taxi": 518011.5,
+      "mean_ride": 2640000.0,
+      "mean_other": 22341988.5,
+      "grid_multiplier": 0.9583333333333333,
+      "e_multiplier": 0.9863636363636363,
+      "other_km_multiplier": 1.0136363636363637,
+      "ops_km_multiplier": 1.009090909090909
+    },
+    {
+      "year": 2026,
+      "mean_national_stock": 33500000.0,
+      "mean_taxi": 600000.0,
+      "mean_ride": 3000000.0,
+      "mean_other": 29900000.0,
+      "grid_multiplier": 0.9166666666666666,
+      "e_multiplier": 0.9727272727272728,
+      "other_km_multiplier": 1.0272727272727273,
+      "ops_km_multiplier": 1.0181818181818183
+    },
+    {
+      "year": 2027,
+      "mean_national_stock": 44500000.0,
+      "mean_taxi": 675000.0,
+      "mean_ride": 3375000.0,
+      "mean_other": 40450000.0,
+      "grid_multiplier": 0.875,
+      "e_multiplier": 0.9590909090909091,
+      "other_km_multiplier": 1.0409090909090908,
+      "ops_km_multiplier": 1.0272727272727273
+    },
+    {
+      "year": 2028,
+      "mean_national_stock": 57500000.0,
+      "mean_taxi": 750000.0,
+      "mean_ride": 3750000.0,
+      "mean_other": 53000000.0,
+      "grid_multiplier": 0.8333333333333333,
+      "e_multiplier": 0.9454545454545454,
+      "other_km_multiplier": 1.0545454545454545,
+      "ops_km_multiplier": 1.0363636363636364
+    },
+    {
+      "year": 2029,
+      "mean_national_stock": 70500000.0,
+      "mean_taxi": 825000.0,
+      "mean_ride": 4125000.0,
+      "mean_other": 65550000.0,
+      "grid_multiplier": 0.7916666666666666,
+      "e_multiplier": 0.9318181818181818,
+      "other_km_multiplier": 1.0681818181818181,
+      "ops_km_multiplier": 1.0454545454545454
+    },
+    {
+      "year": 2030,
+      "mean_national_stock": 83500000.0,
+      "mean_taxi": 900000.0,
+      "mean_ride": 4500000.0,
+      "mean_other": 78100000.0,
+      "grid_multiplier": 0.75,
+      "e_multiplier": 0.9181818181818182,
+      "other_km_multiplier": 1.0818181818181818,
+      "ops_km_multiplier": 1.0545454545454547
+    },
+    {
+      "year": 2031,
+      "mean_national_stock": 99000000.0,
+      "mean_taxi": 960000.0,
+      "mean_ride": 4800000.0,
+      "mean_other": 93240000.0,
+      "grid_multiplier": 0.7,
+      "e_multiplier": 0.9045454545454545,
+      "other_km_multiplier": 1.0954545454545455,
+      "ops_km_multiplier": 1.0636363636363637
+    },
+    {
+      "year": 2032,
+      "mean_national_stock": 117000000.0,
+      "mean_taxi": 1020000.0,
+      "mean_ride": 5100000.0,
+      "mean_other": 110880000.0,
+      "grid_multiplier": 0.65,
+      "e_multiplier": 0.8909090909090909,
+      "other_km_multiplier": 1.1090909090909091,
+      "ops_km_multiplier": 1.0727272727272728
+    },
+    {
+      "year": 2033,
+      "mean_national_stock": 135000000.0,
+      "mean_taxi": 1080000.0,
+      "mean_ride": 5400000.0,
+      "mean_other": 128520000.0,
+      "grid_multiplier": 0.6,
+      "e_multiplier": 0.8772727272727272,
+      "other_km_multiplier": 1.1227272727272726,
+      "ops_km_multiplier": 1.0818181818181818
+    },
+    {
+      "year": 2034,
+      "mean_national_stock": 153000000.0,
+      "mean_taxi": 1140000.0,
+      "mean_ride": 5700000.0,
+      "mean_other": 146160000.0,
+      "grid_multiplier": 0.55,
+      "e_multiplier": 0.8636363636363636,
+      "other_km_multiplier": 1.1363636363636362,
+      "ops_km_multiplier": 1.090909090909091
+    },
+    {
+      "year": 2035,
+      "mean_national_stock": 171000000.0,
+      "mean_taxi": 1200000.0,
+      "mean_ride": 6000000.0,
+      "mean_other": 163800000.0,
+      "grid_multiplier": 0.5,
+      "e_multiplier": 0.85,
+      "other_km_multiplier": 1.15,
+      "ops_km_multiplier": 1.1
+    }
+  ]
+}

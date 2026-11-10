@@ -1,0 +1,925 @@
+{
+  "model_years": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "default_case": "Robotaxi先行·中诱发·温和电耗改进",
+  "case_names": [
+    "Robotaxi先行·弱诱发·维持电耗里程",
+    "Robotaxi先行·弱诱发·温和电耗改进",
+    "Robotaxi先行·弱诱发·改进且低里程",
+    "Robotaxi先行·弱诱发·改进且高里程",
+    "Robotaxi先行·中诱发·维持电耗里程",
+    "Robotaxi先行·中诱发·温和电耗改进",
+    "Robotaxi先行·中诱发·改进且低里程",
+    "Robotaxi先行·中诱发·改进且高里程",
+    "Robotaxi先行·强诱发·维持电耗里程",
+    "Robotaxi先行·强诱发·温和电耗改进",
+    "Robotaxi先行·强诱发·改进且低里程",
+    "Robotaxi先行·强诱发·改进且高里程",
+    "同步推广·弱诱发·维持电耗里程",
+    "同步推广·弱诱发·温和电耗改进",
+    "同步推广·弱诱发·改进且低里程",
+    "同步推广·弱诱发·改进且高里程",
+    "同步推广·中诱发·维持电耗里程",
+    "同步推广·中诱发·温和电耗改进",
+    "同步推广·中诱发·改进且低里程",
+    "同步推广·中诱发·改进且高里程",
+    "同步推广·强诱发·维持电耗里程",
+    "同步推广·强诱发·温和电耗改进",
+    "同步推广·强诱发·改进且低里程",
+    "同步推广·强诱发·改进且高里程",
+    "私人延后·弱诱发·维持电耗里程",
+    "私人延后·弱诱发·温和电耗改进",
+    "私人延后·弱诱发·改进且低里程",
+    "私人延后·弱诱发·改进且高里程",
+    "私人延后·中诱发·维持电耗里程",
+    "私人延后·中诱发·温和电耗改进",
+    "私人延后·中诱发·改进且低里程",
+    "私人延后·中诱发·改进且高里程",
+    "私人延后·强诱发·维持电耗里程",
+    "私人延后·强诱发·温和电耗改进",
+    "私人延后·强诱发·改进且低里程",
+    "私人延后·强诱发·改进且高里程",
+    "仅Robotaxi·弱诱发·维持电耗里程",
+    "仅Robotaxi·弱诱发·温和电耗改进",
+    "仅Robotaxi·弱诱发·改进且低里程",
+    "仅Robotaxi·弱诱发·改进且高里程",
+    "仅Robotaxi·中诱发·维持电耗里程",
+    "仅Robotaxi·中诱发·温和电耗改进",
+    "仅Robotaxi·中诱发·改进且低里程",
+    "仅Robotaxi·中诱发·改进且高里程",
+    "仅Robotaxi·强诱发·维持电耗里程",
+    "仅Robotaxi·强诱发·温和电耗改进",
+    "仅Robotaxi·强诱发·改进且低里程",
+    "仅Robotaxi·强诱发·改进且高里程"
+  ],
+  "case_registry": [
+    {
+      "name": "Robotaxi先行·弱诱发·维持电耗里程",
+      "deployment_index": 1,
+      "response_index": 1,
+      "future_index": 1
+    },
+    {
+      "name": "Robotaxi先行·弱诱发·温和电耗改进",
+      "deployment_index": 1,
+      "response_index": 1,
+      "future_index": 2
+    },
+    {
+      "name": "Robotaxi先行·弱诱发·改进且低里程",
+      "deployment_index": 1,
+      "response_index": 1,
+      "future_index": 3
+    },
+    {
+      "name": "Robotaxi先行·弱诱发·改进且高里程",
+      "deployment_index": 1,
+      "response_index": 1,
+      "future_index": 4
+    },
+    {
+      "name": "Robotaxi先行·中诱发·维持电耗里程",
+      "deployment_index": 1,
+      "response_index": 2,
+      "future_index": 1
+    },
+    {
+      "name": "Robotaxi先行·中诱发·温和电耗改进",
+      "deployment_index": 1,
+      "response_index": 2,
+      "future_index": 2
+    },
+    {
+      "name": "Robotaxi先行·中诱发·改进且低里程",
+      "deployment_index": 1,
+      "response_index": 2,
+      "future_index": 3
+    },
+    {
+      "name": "Robotaxi先行·中诱发·改进且高里程",
+      "deployment_index": 1,
+      "response_index": 2,
+      "future_index": 4
+    },
+    {
+      "name": "Robotaxi先行·强诱发·维持电耗里程",
+      "deployment_index": 1,
+      "response_index": 3,
+      "future_index": 1
+    },
+    {
+      "name": "Robotaxi先行·强诱发·温和电耗改进",
+      "deployment_index": 1,
+      "response_index": 3,
+      "future_index": 2
+    },
+    {
+      "name": "Robotaxi先行·强诱发·改进且低里程",
+      "deployment_index": 1,
+      "response_index": 3,
+      "future_index": 3
+    },
+    {
+      "name": "Robotaxi先行·强诱发·改进且高里程",
+      "deployment_index": 1,
+      "response_index": 3,
+      "future_index": 4
+    },
+    {
+      "name": "同步推广·弱诱发·维持电耗里程",
+      "deployment_index": 2,
+      "response_index": 1,
+      "future_index": 1
+    },
+    {
+      "name": "同步推广·弱诱发·温和电耗改进",
+      "deployment_index": 2,
+      "response_index": 1,
+      "future_index": 2
+    },
+    {
+      "name": "同步推广·弱诱发·改进且低里程",
+      "deployment_index": 2,
+      "response_index": 1,
+      "future_index": 3
+    },
+    {
+      "name": "同步推广·弱诱发·改进且高里程",
+      "deployment_index": 2,
+      "response_index": 1,
+      "future_index": 4
+    },
+    {
+      "name": "同步推广·中诱发·维持电耗里程",
+      "deployment_index": 2,
+      "response_index": 2,
+      "future_index": 1
+    },
+    {
+      "name": "同步推广·中诱发·温和电耗改进",
+      "deployment_index": 2,
+      "response_index": 2,
+      "future_index": 2
+    },
+    {
+      "name": "同步推广·中诱发·改进且低里程",
+      "deployment_index": 2,
+      "response_index": 2,
+      "future_index": 3
+    },
+    {
+      "name": "同步推广·中诱发·改进且高里程",
+      "deployment_index": 2,
+      "response_index": 2,
+      "future_index": 4
+    },
+    {
+      "name": "同步推广·强诱发·维持电耗里程",
+      "deployment_index": 2,
+      "response_index": 3,
+      "future_index": 1
+    },
+    {
+      "name": "同步推广·强诱发·温和电耗改进",
+      "deployment_index": 2,
+      "response_index": 3,
+      "future_index": 2
+    },
+    {
+      "name": "同步推广·强诱发·改进且低里程",
+      "deployment_index": 2,
+      "response_index": 3,
+      "future_index": 3
+    },
+    {
+      "name": "同步推广·强诱发·改进且高里程",
+      "deployment_index": 2,
+      "response_index": 3,
+      "future_index": 4
+    },
+    {
+      "name": "私人延后·弱诱发·维持电耗里程",
+      "deployment_index": 3,
+      "response_index": 1,
+      "future_index": 1
+    },
+    {
+      "name": "私人延后·弱诱发·温和电耗改进",
+      "deployment_index": 3,
+      "response_index": 1,
+      "future_index": 2
+    },
+    {
+      "name": "私人延后·弱诱发·改进且低里程",
+      "deployment_index": 3,
+      "response_index": 1,
+      "future_index": 3
+    },
+    {
+      "name": "私人延后·弱诱发·改进且高里程",
+      "deployment_index": 3,
+      "response_index": 1,
+      "future_index": 4
+    },
+    {
+      "name": "私人延后·中诱发·维持电耗里程",
+      "deployment_index": 3,
+      "response_index": 2,
+      "future_index": 1
+    },
+    {
+      "name": "私人延后·中诱发·温和电耗改进",
+      "deployment_index": 3,
+      "response_index": 2,
+      "future_index": 2
+    },
+    {
+      "name": "私人延后·中诱发·改进且低里程",
+      "deployment_index": 3,
+      "response_index": 2,
+      "future_index": 3
+    },
+    {
+      "name": "私人延后·中诱发·改进且高里程",
+      "deployment_index": 3,
+      "response_index": 2,
+      "future_index": 4
+    },
+    {
+      "name": "私人延后·强诱发·维持电耗里程",
+      "deployment_index": 3,
+      "response_index": 3,
+      "future_index": 1
+    },
+    {
+      "name": "私人延后·强诱发·温和电耗改进",
+      "deployment_index": 3,
+      "response_index": 3,
+      "future_index": 2
+    },
+    {
+      "name": "私人延后·强诱发·改进且低里程",
+      "deployment_index": 3,
+      "response_index": 3,
+      "future_index": 3
+    },
+    {
+      "name": "私人延后·强诱发·改进且高里程",
+      "deployment_index": 3,
+      "response_index": 3,
+      "future_index": 4
+    },
+    {
+      "name": "仅Robotaxi·弱诱发·维持电耗里程",
+      "deployment_index": 4,
+      "response_index": 1,
+      "future_index": 1
+    },
+    {
+      "name": "仅Robotaxi·弱诱发·温和电耗改进",
+      "deployment_index": 4,
+      "response_index": 1,
+      "future_index": 2
+    },
+    {
+      "name": "仅Robotaxi·弱诱发·改进且低里程",
+      "deployment_index": 4,
+      "response_index": 1,
+      "future_index": 3
+    },
+    {
+      "name": "仅Robotaxi·弱诱发·改进且高里程",
+      "deployment_index": 4,
+      "response_index": 1,
+      "future_index": 4
+    },
+    {
+      "name": "仅Robotaxi·中诱发·维持电耗里程",
+      "deployment_index": 4,
+      "response_index": 2,
+      "future_index": 1
+    },
+    {
+      "name": "仅Robotaxi·中诱发·温和电耗改进",
+      "deployment_index": 4,
+      "response_index": 2,
+      "future_index": 2
+    },
+    {
+      "name": "仅Robotaxi·中诱发·改进且低里程",
+      "deployment_index": 4,
+      "response_index": 2,
+      "future_index": 3
+    },
+    {
+      "name": "仅Robotaxi·中诱发·改进且高里程",
+      "deployment_index": 4,
+      "response_index": 2,
+      "future_index": 4
+    },
+    {
+      "name": "仅Robotaxi·强诱发·维持电耗里程",
+      "deployment_index": 4,
+      "response_index": 3,
+      "future_index": 1
+    },
+    {
+      "name": "仅Robotaxi·强诱发·温和电耗改进",
+      "deployment_index": 4,
+      "response_index": 3,
+      "future_index": 2
+    },
+    {
+      "name": "仅Robotaxi·强诱发·改进且低里程",
+      "deployment_index": 4,
+      "response_index": 3,
+      "future_index": 3
+    },
+    {
+      "name": "仅Robotaxi·强诱发·改进且高里程",
+      "deployment_index": 4,
+      "response_index": 3,
+      "future_index": 4
+    }
+  ],
+  "regions": [
+    "华北",
+    "东北",
+    "华东",
+    "华中",
+    "西北",
+    "南方",
+    "西南"
+  ],
+  "baseline_year": 2024,
+  "baseline_spec_path": "round09/package/baseline_spec.json",
+  "stock_end_nodes": {
+    "2023": 16000000.0,
+    "2024": 22000000.0,
+    "2025": 29000000.0,
+    "2026": 38000000.0,
+    "2030": 90000000.0,
+    "2035": 180000000.0
+  },
+  "ordinary_taxi_mean_nodes": {
+    "2024": 436023.0,
+    "2026": 600000.0,
+    "2030": 900000.0,
+    "2035": 1200000.0
+  },
+  "ordinary_ride_mean_nodes": {
+    "2024": 2280000.0,
+    "2026": 3000000.0,
+    "2030": 4500000.0,
+    "2035": 6000000.0
+  },
+  "grid_multiplier_nodes": {
+    "2024": 1.0,
+    "2026": 0.9166666666666666,
+    "2030": 0.75,
+    "2035": 0.5
+  },
+  "deployment_nodes": {
+    "Robotaxi先行": {
+      "private": {
+        "2024": 0.0,
+        "2026": 0.0,
+        "2030": 0.01,
+        "2035": 0.1
+      },
+      "ops": {
+        "2024": 0.0,
+        "2026": 0.005,
+        "2030": 0.1,
+        "2035": 0.4
+      }
+    },
+    "同步推广": {
+      "private": {
+        "2024": 0.0,
+        "2026": 0.001,
+        "2030": 0.03,
+        "2035": 0.15
+      },
+      "ops": {
+        "2024": 0.0,
+        "2026": 0.005,
+        "2030": 0.1,
+        "2035": 0.4
+      }
+    },
+    "私人延后": {
+      "private": {
+        "2024": 0.0,
+        "2026": 0.0,
+        "2030": 0.0,
+        "2035": 0.03
+      },
+      "ops": {
+        "2024": 0.0,
+        "2026": 0.005,
+        "2030": 0.1,
+        "2035": 0.4
+      }
+    },
+    "仅Robotaxi": {
+      "private": {
+        "2024": 0.0,
+        "2026": 0.0,
+        "2030": 0.0,
+        "2035": 0.0
+      },
+      "ops": {
+        "2024": 0.0,
+        "2026": 0.005,
+        "2030": 0.1,
+        "2035": 0.4
+      }
+    }
+  },
+  "induced_levels": {
+    "弱诱发": 0.05,
+    "中诱发": 0.15,
+    "强诱发": 0.3
+  },
+  "parameters": [
+    {
+      "key": "sigma",
+      "label": "外部方式转入/承接原BEV人员公里",
+      "value": 0.15,
+      "unit": "比例",
+      "evidence_role": "研究者转入情景",
+      "limitation": "Kshift=sigma×aK0；原BEV已承接部分不重复转入；未识别原方式概率和距离。",
+      "source_url": "https://doi.org/10.1016/j.resconrec.2026.108870"
+    },
+    {
+      "key": "private_to_robot",
+      "label": "已承接私人需求转交Robotaxi份额",
+      "value": 0.0,
+      "unit": "比例",
+      "evidence_role": "研究者路由情景",
+      "limitation": "中心私人承接为私人AV。增加此值只分流已承接需求，不新增原BEV人员公里。",
+      "source_url": ""
+    },
+    {
+      "key": "saving_private",
+      "label": "私人AV原运行电耗改善",
+      "value": 0.15,
+      "unit": "比例",
+      "evidence_role": "研究者技术情景",
+      "limitation": "参考第二篇假定15%，重设为BEV剔除新增设备的单位VKT运行电耗改善，不是中国观测。",
+      "source_url": "https://doi.org/10.1016/j.resconrec.2026.108870"
+    },
+    {
+      "key": "saving_robot",
+      "label": "Robotaxi原运行电耗改善",
+      "value": 0.15,
+      "unit": "比例",
+      "evidence_role": "研究者技术情景",
+      "limitation": "同上；与设备净增量分开，未来普通BEV原电耗在两对照中保持一致。",
+      "source_url": "https://doi.org/10.1016/j.resconrec.2026.108870"
+    },
+    {
+      "key": "pc_private",
+      "label": "私人AV行驶计算净功率",
+      "value": 0.2,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "po_private",
+      "label": "私人AV行驶感知及配套净功率",
+      "value": 0.1,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "pc_robot",
+      "label": "Robotaxi行驶计算净功率",
+      "value": 0.35,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "po_robot",
+      "label": "Robotaxi行驶感知及配套净功率",
+      "value": 0.15,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "pic_private",
+      "label": "私人AV候用计算净功率",
+      "value": 0.02,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "pio_private",
+      "label": "私人AV候用其他净功率",
+      "value": 0.01,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "pic_robot",
+      "label": "Robotaxi待机计算净功率",
+      "value": 0.05,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "pio_robot",
+      "label": "Robotaxi待机其他净功率",
+      "value": 0.03,
+      "unit": "kW",
+      "evidence_role": "研究者净功率及分项情景",
+      "limitation": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。候用/待机缺中国实测；包含供电转换及增量散热的模型假设，不再另叠加整包。",
+      "source_url": "https://doi.org/10.1109/ITSC57777.2023.10422013"
+    },
+    {
+      "key": "power_multiplier",
+      "label": "全部AV新增功率乘数",
+      "value": 1.0,
+      "unit": "倍",
+      "evidence_role": "单参数敏感性控制",
+      "limitation": "作用计算与其他增量，不改变原BEV电耗。",
+      "source_url": ""
+    },
+    {
+      "key": "v_private",
+      "label": "私人AV行驶平均速度",
+      "value": 30.0,
+      "unit": "km/h",
+      "evidence_role": "研究者速度情景",
+      "limitation": "用于全部行驶车辆公里转设备行驶小时；不是订单速度或七区观测。",
+      "source_url": ""
+    },
+    {
+      "key": "v_robot",
+      "label": "Robotaxi行驶平均速度",
+      "value": 25.0,
+      "unit": "km/h",
+      "evidence_role": "研究者速度情景",
+      "limitation": "同上；包含空驶VKT，与单车年里程、在线窗口须相容。",
+      "source_url": ""
+    },
+    {
+      "key": "private_idle_day",
+      "label": "私人AV每日额外候用小时",
+      "value": 0.5,
+      "unit": "h/日",
+      "evidence_role": "研究者状态时间情景",
+      "limitation": "设备开启且车未行驶；不包括已计入行驶时间，不视为全天常开。",
+      "source_url": ""
+    },
+    {
+      "key": "private_days",
+      "label": "私人AV全年候用计时日",
+      "value": 365.0,
+      "unit": "日/年",
+      "evidence_role": "模型日历设定",
+      "limitation": "行驶小时另由总VKT/速度计算；全年休眠的净增量暂设零。",
+      "source_url": ""
+    },
+    {
+      "key": "robot_days",
+      "label": "Robotaxi全年运营日",
+      "value": 320.0,
+      "unit": "日/年",
+      "evidence_role": "研究者工作制情景",
+      "limitation": "与年里程80000=250×320配对；未称实测全年车均。",
+      "source_url": ""
+    },
+    {
+      "key": "robot_online_day",
+      "label": "Robotaxi每日设备在线窗口",
+      "value": 14.0,
+      "unit": "h/运营日",
+      "evidence_role": "研究者在线时间情景",
+      "limitation": "行驶10h、待机4h/运营日。企业12h或24/7服务窗口不能直接认作逐车设备实测。",
+      "source_url": "https://ir.weride.ai/static-files/5b6816e5-6ba4-4fcc-8847-28537c5a4ab2"
+    },
+    {
+      "key": "robot_annual_vkt",
+      "label": "Robotaxi单车全年总VKT",
+      "value": 80000.0,
+      "unit": "km/辆年",
+      "evidence_role": "研究者车队利用率情景",
+      "limitation": "含载客及空驶；Nfleet=D/L，不以a乘全国车量。可参考旧网约高里程工作制。",
+      "source_url": ""
+    },
+    {
+      "key": "u_robot",
+      "label": "Robotaxi空驶/载客VKT",
+      "value": 0.3,
+      "unit": "比例",
+      "evidence_role": "研究者调度情景",
+      "limitation": "原出租/网约0.5→0.3为改善假设；不是空驶占总VKT30%。",
+      "source_url": ""
+    },
+    {
+      "key": "o_robot",
+      "label": "Robotaxi载客距离加权人数",
+      "value": 1.3,
+      "unit": "人",
+      "evidence_role": "研究者人数情景",
+      "limitation": "与原营运中心人数相同，未设拼车，专业服务司机不作乘客。",
+      "source_url": ""
+    },
+    {
+      "key": "u_private",
+      "label": "私人AV空驶/载客VKT",
+      "value": 0.0,
+      "unit": "比例",
+      "evidence_role": "研究者私车运行情景",
+      "limitation": "中心无自动返家、接送空驶；0.1/0.3另做敏感性。",
+      "source_url": ""
+    },
+    {
+      "key": "o_private",
+      "label": "私人AV载客距离加权人数",
+      "value": 1.5,
+      "unit": "人",
+      "evidence_role": "研究者人数情景",
+      "limitation": "原出行驾驶者是被承接出行者，继续计入人员公里。",
+      "source_url": ""
+    },
+    {
+      "key": "eta_private",
+      "label": "私人AV网侧到电池效率",
+      "value": 0.94,
+      "unit": "比例",
+      "evidence_role": "基准代理沿用",
+      "limitation": "与2024普通私人BEV使用同一效率，不再除第二次损失。",
+      "source_url": "https://www.adac.de/rund-ums-fahrzeug/elektromobilitaet/laden/ladeverluste-elektroauto-studie/"
+    },
+    {
+      "key": "eta_robot",
+      "label": "Robotaxi网侧到电池效率",
+      "value": 0.9,
+      "unit": "比例",
+      "evidence_role": "基准代理沿用",
+      "limitation": "与2024普通运营BEV使用同一效率。",
+      "source_url": "https://www.adac.de/rund-ums-fahrzeug/elektromobilitaet/laden/ladeverluste-elektroauto-studie/"
+    },
+    {
+      "key": "e_robot_ref",
+      "label": "Robotaxi原运行电耗参考",
+      "value": 0.1713,
+      "unit": "kWh/km",
+      "evidence_role": "旧网约组电池侧代理",
+      "limitation": "沿用Hao2020网约组；与原出租0.1678存在平台代理差异，15%改善不是仅算法因果作用。",
+      "source_url": "https://doi.org/10.1016/j.jclepro.2019.119403"
+    },
+    {
+      "key": "g_multiplier",
+      "label": "诱发增幅乘数",
+      "value": 1.0,
+      "unit": "倍",
+      "evidence_role": "单参数敏感性控制",
+      "limitation": "g是各年AV新增人员公里/当年AV承接及转入需求，非逐年复利增长率。",
+      "source_url": ""
+    }
+  ],
+  "use_groups": [
+    {
+      "key": "private",
+      "label": "私人非专业用途",
+      "annual_km": 12000.0,
+      "e": 0.176,
+      "eta": 0.94,
+      "u": 0.0,
+      "o": 1.5,
+      "eligible": 1
+    },
+    {
+      "key": "public",
+      "label": "公务及单位用途",
+      "annual_km": 12000.0,
+      "e": 0.176,
+      "eta": 0.94,
+      "u": 0.0,
+      "o": 1.5,
+      "eligible": 0
+    },
+    {
+      "key": "rental",
+      "label": "剩余非网约租赁",
+      "annual_km": 42078.36,
+      "e": 0.176,
+      "eta": 0.94,
+      "u": 0.0,
+      "o": 1.5,
+      "eligible": 0
+    },
+    {
+      "key": "taxi",
+      "label": "巡游出租",
+      "annual_km": 54476.399999999994,
+      "e": 0.1678,
+      "eta": 0.9,
+      "u": 0.5,
+      "o": 1.3,
+      "eligible": 1
+    },
+    {
+      "key": "ride",
+      "label": "网约服务",
+      "annual_km": 54485.88,
+      "e": 0.1713,
+      "eta": 0.9,
+      "u": 0.5,
+      "o": 1.3,
+      "eligible": 1
+    }
+  ],
+  "other_internal_mix": {
+    "private": 0.8263157894736842,
+    "public": 0.15,
+    "rental": 0.02368421052631579
+  },
+  "spatial_proxy": {
+    "private": {
+      "national": 28634.440000000006,
+      "regional": {
+        "华北": 6374.372657830821,
+        "东北": 2295.2073421691794,
+        "华东": 6230.32,
+        "华中": 4668.92,
+        "西北": 1970.06,
+        "南方": 5156.53,
+        "西南": 1883.8899999999999
+      },
+      "coverage": 0.9980743468354888,
+      "fractions": {
+        "华北": 0.22261209431128456,
+        "东北": 0.0801554820757514,
+        "华东": 0.2175813460993125,
+        "华中": 0.16305260378760678,
+        "西北": 0.06880036766914245,
+        "南方": 0.18008139848378382,
+        "西南": 0.06579105440860723
+      }
+    },
+    "civil": {
+      "national": 30720.06,
+      "regional": {
+        "华北": 6822.478776842546,
+        "东北": 2442.591223157454,
+        "华东": 6848.4800000000005,
+        "华中": 4889.17,
+        "西北": 2139.11,
+        "南方": 5483.57,
+        "西南": 2033.91
+      },
+      "coverage": 0.9980224647998734,
+      "fractions": {
+        "华北": 0.22208546392300488,
+        "东北": 0.07951127775002567,
+        "华东": 0.22293185625288492,
+        "华中": 0.15915235842638328,
+        "西北": 0.06963235097848117,
+        "南方": 0.17850127896885618,
+        "西南": 0.06620787850023731
+      }
+    }
+  },
+  "region_ef_2023_carried_to_2024": [
+    {
+      "region": "华北",
+      "value": 0.6361,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "东北",
+      "value": 0.5122,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "华东",
+      "value": 0.55,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "华中",
+      "value": 0.5271,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "西北",
+      "value": 0.5543,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "南方",
+      "value": 0.4042,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    },
+    {
+      "region": "西南",
+      "value": 0.2472,
+      "source_observation_year": 2023,
+      "model_year": 2024,
+      "evidence_role": "historical_year_carried_forward_proxy"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IEA2026 Cars BEV stock",
+      "url": "https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer",
+      "role": "2023/24/25历史存档；2035 STEPS年末180m粗投影；2026/2030节点研究者情景，节点间线性年末插值后两端平均"
+    },
+    {
+      "title": "2024普通运营车队年均代理与未来用途节点",
+      "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202506/t20250610_4170251.html",
+      "role": "2024闭合值沿用；2026/30/35出租与网约量为研究者年均场景，不随全国总stock等比例扩大"
+    },
+    {
+      "title": "生态环境部2023七区域电力因子",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202512/W020251231726284332528.pdf",
+      "role": "2024平移；未来共同倍率递减是研究者减碳场景，不冒称官方预测"
+    },
+    {
+      "title": "One mile forward, six miles back",
+      "url": "https://doi.org/10.1016/j.resconrec.2026.108870",
+      "role": "借模式替代与效率对照逻辑；芝加哥选择系数/六英里阈值不移用中国；g不是该篇直接估计量"
+    },
+    {
+      "title": "BEV研究台架功率",
+      "url": "https://doi.org/10.1109/ITSC57777.2023.10422013",
+      "role": "全尺寸BEV平台报告Actual 446.7W；不同系统242.8W BOM与0.8kW反推仅参考量级。所选净电池侧增量及分项不是该文实测。"
+    }
+  ],
+  "scope_notes": [
+    "七个电网区域；排除西藏、港澳台；只计BEV乘用车网侧充电电量及电力CO2。",
+    "私人原BEV客公里捕获率cprivate和原运营BEV捕获率cops独立，总体a从捕获结果计算。",
+    "私人AV车队=cprivate×原私人BEV车队×(1-beta)，新增g增加原车队里程；Robotaxi按需求扩容。",
+    "公务与剩余非网约租赁不转为AV；原方式转入全部进入Robotaxi，原方式能耗变化不纳入。",
+    "普通BEV电耗、年度里程、车量及电网在AV/noAV同年比较中完全共享。",
+    "四条落地路径与普通BEV改进范围是研究者情景，不是中国实测预测或概率区间。",
+    "g为当年AV承接与转入之后的相对新增客公里，非逐年复利增长率。",
+    "设备按净电池侧功率和行驶/候用车队小时计算；计算用电属于设备总用电。",
+    "解析联合阈值依赖固定速度/功率/人数/空驶比/单车年里程和按需求扩容，不代表容量约束模型。"
+  ],
+  "future_cases": {
+    "维持电耗里程": {
+      "e2035": 1.0,
+      "other_km2035": 1.0,
+      "ops_km2035": 1.0
+    },
+    "温和电耗改进": {
+      "e2035": 0.85,
+      "other_km2035": 1.0,
+      "ops_km2035": 1.0
+    },
+    "改进且低里程": {
+      "e2035": 0.75,
+      "other_km2035": 0.85,
+      "ops_km2035": 0.9
+    },
+    "改进且高里程": {
+      "e2035": 0.85,
+      "other_km2035": 1.15,
+      "ops_km2035": 1.1
+    }
+  }
+}
